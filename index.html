@@ -205,12 +205,13 @@
         <div class="item">
           <input type="checkbox" id="amortyzator">
           <label for="amortyzator">
-            <span>🔩 Wymiana amortyzatora (1 szt.)</span>
+            <span>🔩 Wymiana amortyzatora</span>
             <select class="price-select">
               <option value="150">150 zł</option>
               <option value="250">250 zł</option>
               <option value="350">350 zł</option>
             </select>
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
 
@@ -223,17 +224,19 @@
               <option value="135" selected>135 zł</option>
               <option value="200">200 zł</option>
             </select>
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
 
         <div class="item">
           <input type="checkbox" id="lozysko-kola">
           <label for="lozysko-kola">
-            <span>📏 Wymiana łożyska koła (1 szt.)</span>
+            <span>📏 Wymiana łożyska koła</span>
             <select class="price-select">
               <option value="200">200 zł</option>
               <option value="300">300 zł</option>
             </select>
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
         
@@ -252,16 +255,18 @@
         <div class="item">
           <input type="checkbox" id="wahacz">
           <label for="wahacz">
-            <span>🛠️ Wymiana Wahacza(1szt) </span>
+            <span>🛠️ Wymiana Wahacza</span>
             <input class="custom-price" type="number" min="0" value="500" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
 
         <div class="item">
           <input type="checkbox" id="zwrotnica">
           <label for="zwrotnica">
-            <span>🛠️ Wymiana zwrotnicy(1szt)</span>
+            <span>🛠️ Wymiana zwrotnicy</span>
             <input class="custom-price" type="number" min="0" value="700" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
       </div>
@@ -290,6 +295,7 @@
           <label for="uszczelka">
             <span>🔧 Uszczelka głowicy</span>
             <input class="custom-price" type="number" min="0" value="1200" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
      </div>
@@ -310,6 +316,7 @@
           <label for="reflektorMD">
             <span>🔧 montaż/demontaż reflektora</span>
             <input class="custom-price" type="number" min="0" value="300" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
       
@@ -318,14 +325,16 @@
           <label for="błotnikMD">
             <span>🔧 montaż/demontaż błotnika</span>
             <input class="custom-price" type="number" min="0" value="600" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
 
       <div class="item">
           <input type="checkbox" id="nadkoleMD">
           <label for="nadkoleMD">
-            <span>🔧 montaż/demontaż nadkola(1szt)</span>
+            <span>🔧 montaż/demontaż nadkola</span>
             <input class="custom-price" type="number" min="0" value="400" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
       
@@ -347,8 +356,9 @@
       <div class="item">
           <input type="checkbox" id="drzwiMD">
           <label for="drzwiMD">
-            <span>🔧 montaż/demontaż drzwi(1szt)</span>
+            <span>🔧 montaż/demontaż drzwi</span>
             <input class="custom-price" type="number" min="0" value="500" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
       </div>
     </div>
@@ -359,13 +369,14 @@
       <div class="item">
           <input type="checkbox" id="błotnikL">
           <label for="błotnikL">
-            <span> Lakierowanie błotnika(1szt)</span>
+            <span> Lakierowanie błotnika</span>
             <select class="price-select">
               <option value="100">100 zł</option>
               <option value="900">900 zł</option>
               <option value="1200">1200 zł</option>
               <option value="1500">1500 zł</option>
               <input class="custom-price" type="number" min="0" value="1000" />
+              <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
             </select>
           </label>
         </div>
@@ -416,7 +427,7 @@
       <div class="item">
           <input type="checkbox" id="drzwiL">
           <label for="drzwiL">
-            <span> Lakierowanie drzwi(1szt) </span>
+            <span> Lakierowanie drzwi</span>
             <select class="price-select">
               <option value="100">100 zł</option>
               <option value="500">500 zł</option>
@@ -425,6 +436,7 @@
               <option value="2000">2000 zł</option>
             </select>
             <input class="custom-price" type="number" min="0" value="3000" />
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
     </div>
@@ -459,12 +471,13 @@
         <div class="item">
           <input type="checkbox" id="radar-kamera">
           <label for="radar-kamera">
-            <span>Kalibracja radarów / kamer(1szt)</span>
+            <span>Kalibracja radarów / kamer</span>
             <select class="price-select">
               <option value="1000">1000 zł</option>
               <option value="1500" selected>1500 zł</option>
               <option value="2000">2000 zł</option>
             </select>
+            <input class="qty" type="number" min="1" value="1" title="Ilość sztuk" />
           </label>
         </div>
     </div>
